@@ -14,7 +14,7 @@ int deleteAll() {
 		currentNode = currentNode->next;
 		free(previousNode);
 	}
-	HEADER->next = HEADER;
+	HEADER->next =HEADER;
     HEADER->prev = HEADER;
 	return (0);
 }
